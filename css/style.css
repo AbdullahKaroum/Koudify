@@ -1,3 +1,4 @@
+/*ovo branch*/
 /*Table of Contents
 /*Table of Contents
 01 body
@@ -218,8 +219,10 @@ blockquote.blockquote::before{
 .nopadding{
     padding: 0;
 }
+/* ovo change 1 */
 .fontbold{
    font-weight: bold;
+   font-size: .5em;
 }
 .fontmedium {
    font-weight: 500;
@@ -227,8 +230,14 @@ blockquote.blockquote::before{
 .font-light{
    font-weight: 300;
 }
+/* ovo change 2*/
+.big_name{
+   color: #E74C3C;
+   font-weight: bold;
+} 
 .font-xlight {
-   font-weight: 200;
+   font-weight: 300;
+   font-size: 1.2em
 }
 .bglight {
     background: #f6f6f6;
@@ -255,7 +264,7 @@ section{
 	padding-left: 2.25rem;
 	padding-right: 2.25rem;
 }
-/*.gradient_bg{
+/**/.gradient_bg{
     background: -webkit-linear-gradient(90deg, #423f9c 31%, #862359 69%);
     background: -webkit-gradient(linear, left top, right top, color-stop(31%, #423f9c), color-stop(69%, #862359));
     background: -webkit-linear-gradient(left, #423f9c 31%, #862359 69%);
@@ -275,10 +284,10 @@ section{
     background: -webkit-linear-gradient(left, #90A4AE 31%, #607D8B 69%);
     background: -o-linear-gradient(left, #90A4AE 31%, #607D8B 69%);
     background: linear-gradient(90deg, #90A4AE 31%, #607D8B 69%);
-}*/
-.gradient_bg {
-  background: white;
 }
+ .gradient_backg {
+  background: white;
+} 
 
 /*heading Titles */
 .heading-title > span{
@@ -902,6 +911,7 @@ i::before,i::after{
    position: relative;
    left: 0;
    opacity: 1;
+   background-color: #000
 }
 .bg-white .navbar-toggler span,
 .bg-transparent-light .navbar-toggler span,
@@ -1047,7 +1057,8 @@ i::before,i::after{
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-	box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+   box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+   
 }
 .side-menu .btn-close::before, .side-menu .btn-close::after {
 	position: absolute;
@@ -1092,13 +1103,14 @@ i::before,i::after{
    background: #212331;
    display: block;
 }
+/* ovo change 0 */
 .center-brand .sidemenu_btn > span,
 .transparent-bg .sidemenu_btn > span,
 .fixed-bottom .sidemenu_btn > span,
 .just-sidemenu .toggle_white.sidemenu_btn > span,
 .bg-invisible .sidemenu_btn > span,
 .boxed-nav .sidemenu_btn > span {
-   background: #fff;
+   background: #000;
 }
 .center-brand.fixedmenu .sidemenu_btn > span,
 .bg-invisible.fixedmenu .sidemenu_btn > span,
@@ -1684,6 +1696,7 @@ i::before,i::after{
 /*-------------------------------*/
 .half-section{
     width: 100%;
+    
 }
 .half-section,
 .half-section .img-container{
@@ -1775,9 +1788,6 @@ i::before,i::after{
    padding: 70px  15px 0 15px;
    display: table-cell;
 }
-.process-wrapp li:hover {
-   cursor: pointer;
-}
 .process-wrapp li > .pro-step {
    display: inline-block;
    height: 90px;
@@ -1822,6 +1832,9 @@ i::before,i::after{
 }
 .process-wrapp li::after {
    right: 0;
+}
+.process-wrapp li .fontbold{
+   font-size: .9em;
 }
 
 /*process with box */
@@ -2085,7 +2098,7 @@ i::before,i::after{
 .progress-bars .progress .progress-bar span {
    top: -24px;
 }
-.progress-bars .progress .progress-bar {
+.progress-bars .progress .progress-br {
 	float: none;
 	position: absolute;
 	height: 100%;
